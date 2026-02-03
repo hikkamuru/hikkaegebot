@@ -1,0 +1,55 @@
+{
+  "purchases": [],
+  "pending": [
+    {
+      "id": "ffe257ece7eb",
+      "user_id": 1147598786,
+      "username": "",
+      "full_name": "👤",
+      "phone": "",
+      "card_id": "baza",
+      "card_name": "☕️ БАЗОВЫЙ",
+      "price": 1680
+    },
+    {
+      "id": "1f767b1b7e3e",
+      "user_id": 1147598786,
+      "username": "",
+      "full_name": "👤",
+      "phone": "",
+      "card_id": "milk",
+      "card_name": "🥛 МОЛОЧНЫЙ",
+      "price": 2850
+    },
+    {
+      "id": "4a9deb8c2afd",
+      "user_id": 1147598786,
+      "username": "",
+      "full_name": "👤",
+      "phone": "",
+      "card_id": "all",
+      "card_name": "🌟 ВСЕ ВКЛЮЧЕНО",
+      "price": 3580
+    },
+    {
+      "id": "a2d02b1de021",
+      "user_id": 1147598786,
+      "username": "",
+      "full_name": "Ясырев Никита Юрьевич",
+      "phone": "7 9003561751",
+      "card_id": "baza",
+      "card_name": "☕️ БАЗОВЫЙ",
+      "price": 1680
+    },
+    {
+      "id": "76c5aa356ce2",
+      "user_id": 1147598786,
+      "username": "",
+      "full_name": "Ясырев Никита Юрьевич",
+      "phone": "+79003561751",
+      "card_id": "all",
+      "card_name": "🌟 ВСЕ ВКЛЮЧЕНО",
+      "price": 3580
+    }
+  ]
+}
