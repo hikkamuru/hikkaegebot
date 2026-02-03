@@ -43,18 +43,37 @@ async def send_next_question(user_id: int, callback: CallbackQuery = None, messa
     text += f"{current_task['question']}\n\n"
     text += f"🏆 Счёт: {session['score']} очков"
     
-    if callback:
-        await callback.message.edit_text(
-            text,
-            reply_markup=get_answer_keyboard(current_task["answers"]),
-            parse_mode="HTML"
-        )
-    elif message:
-        await message.answer(
-            text,
-            reply_markup=get_answer_keyboard(current_task["answers"]),
-            parse_mode="HTML"
-        )
+    # Если есть изображение, отправляем его
+    if current_task.get("image_path"):
+        from aiogram.types import FSInputFile
+        image = FSInputFile(current_task["image_path"])
+        if callback:
+            await callback.message.answer_photo(
+                photo=image,
+                caption=text,
+                reply_markup=get_answer_keyboard(current_task["answers"]),
+                parse_mode="HTML"
+            )
+        elif message:
+            await message.answer_photo(
+                photo=image,
+                caption=text,
+                reply_markup=get_answer_keyboard(current_task["answers"]),
+                parse_mode="HTML"
+            )
+    else:
+        if callback:
+            await callback.message.edit_text(
+                text,
+                reply_markup=get_answer_keyboard(current_task["answers"]),
+                parse_mode="HTML"
+            )
+        elif message:
+            await message.answer(
+                text,
+                reply_markup=get_answer_keyboard(current_task["answers"]),
+                parse_mode="HTML"
+            )
 
 
 async def show_final_results(user_id: int, target):

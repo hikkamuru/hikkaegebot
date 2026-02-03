@@ -289,6 +289,268 @@ class MathTasks:
                 "correct_index": 2,
                 "explanation": "P = 4/(4+6) = 4/10 = 0.4"
             },
+            
+            # ==================== ЛЕГКИЕ ЗАДАНИЯ ====================
+            {
+                "id": 26,
+                "type": "multiple_choice",
+                "topic": "Задание 1",
+                "difficulty": "easy",
+                "question": "Найдите корень уравнения: x + 8 = 15",
+                "answers": ["5", "6", "7", "8"],
+                "correct_index": 2,
+                "explanation": "x = 15 - 8 = 7"
+            },
+            {
+                "id": 27,
+                "type": "multiple_choice",
+                "topic": "Задание 1",
+                "difficulty": "easy",
+                "question": "Решите уравнение: 6x = 42",
+                "answers": ["6", "7", "8", "9"],
+                "correct_index": 1,
+                "explanation": "x = 42 / 6 = 7"
+            },
+            {
+                "id": 28,
+                "type": "multiple_choice",
+                "topic": "Задание 1",
+                "difficulty": "easy",
+                "question": "Найдите x: x - 4 = 12",
+                "answers": ["14", "15", "16", "17"],
+                "correct_index": 2,
+                "explanation": "x = 12 + 4 = 16"
+            },
+            {
+                "id": 29,
+                "type": "multiple_choice",
+                "topic": "Задание 2",
+                "difficulty": "easy",
+                "question": "Вычислите: 15 + 27",
+                "answers": ["40", "41", "42", "43"],
+                "correct_index": 2,
+                "explanation": "15 + 27 = 42"
+            },
+            {
+                "id": 30,
+                "type": "multiple_choice",
+                "topic": "Задание 2",
+                "difficulty": "easy",
+                "question": "Найдите значение: 100 × 7",
+                "answers": ["600", "700", "800", "900"],
+                "correct_index": 1,
+                "explanation": "100 × 7 = 700"
+            },
+            {
+                "id": 31,
+                "type": "multiple_choice",
+                "topic": "Задание 2",
+                "difficulty": "easy",
+                "question": "Вычислите: 144 / 12",
+                "answers": ["10", "11", "12", "13"],
+                "correct_index": 2,
+                "explanation": "144 / 12 = 12"
+            },
+            {
+                "id": 32,
+                "type": "multiple_choice",
+                "topic": "Задание 2",
+                "difficulty": "easy",
+                "question": "Найдите значение выражения: 8 × 8",
+                "answers": ["54", "64", "74", "84"],
+                "correct_index": 1,
+                "explanation": "8 × 8 = 64"
+            },
+            {
+                "id": 33,
+                "type": "multiple_choice",
+                "topic": "Задание 3",
+                "difficulty": "easy",
+                "question": "В равнобедренном треугольнике угол при основании равен 70°. Найдите вершину.",
+                "answers": ["30°", "40°", "50°", "60°"],
+                "correct_index": 1,
+                "explanation": "Сумма углов = 180°. Два угла по 70° = 140°. Вершина = 180° - 140° = 40°"
+            },
+            {
+                "id": 34,
+                "type": "multiple_choice",
+                "topic": "Задание 3",
+                "difficulty": "easy",
+                "question": "Найдите площадь квадрата со стороной 5 см.",
+                "answers": ["20 см²", "25 см²", "30 см²", "35 см²"],
+                "correct_index": 1,
+                "explanation": "Площадь квадрата = сторона² = 5² = 25 см²"
+            },
+            {
+                "id": 35,
+                "type": "multiple_choice",
+                "topic": "Задание 4",
+                "difficulty": "easy",
+                "question": "В коробке 2 белых и 8 черных шаров. Какова вероятность вынуть белый шар?",
+                "answers": ["0.1", "0.2", "0.25", "0.3"],
+                "correct_index": 1,
+                "explanation": "P = 2/(2+8) = 2/10 = 0.2"
+            },
+            
+            # ==================== СЛОЖНЫЕ ЗАДАНИЯ ====================
+            {
+                "id": 36,
+                "type": "multiple_choice",
+                "topic": "Задание 12",
+                "difficulty": "hard",
+                "question": "Решите уравнение: log₂(x² - 3x + 2) = 1",
+                "answers": ["x = 0; x = 3", "x = 1; x = 2", "x = -1; x = 4", "x = 0.5; x = 2.5"],
+                "correct_index": 0,
+                "explanation": "x² - 3x + 2 = 2¹ = 2. x² - 3x = 0. x(x - 3) = 0. x = 0 или x = 3. Проверка ОДЗ: x² - 3x + 2 > 0 выполняется"
+            },
+            {
+                "id": 37,
+                "type": "multiple_choice",
+                "topic": "Задание 14",
+                "difficulty": "hard",
+                "question": "Решите неравенство: (x - 2)(x + 3) > 0",
+                "answers": ["x < -3 или x > 2", "-3 < x < 2", "x > 5", "x < -3"],
+                "correct_index": 0,
+                "explanation": "Корни: x = 2, x = -3. Парабола ветвями вверх. Неравенство > 0 вне корней: x < -3 или x > 2"
+            },
+            {
+                "id": 38,
+                "type": "multiple_choice",
+                "topic": "Задание 12",
+                "difficulty": "hard",
+                "question": "Решите уравнение: 4ˣ - 5·2ˣ + 4 = 0",
+                "answers": ["x = 0; x = 2", "x = 1; x = 2", "x = 0; x = 1", "x = 2"],
+                "correct_index": 2,
+                "explanation": "Пусть t = 2ˣ. t² - 5t + 4 = 0. t = 1 или t = 4. 2ˣ = 1 → x = 0; 2ˣ = 4 → x = 2"
+            },
+            {
+                "id": 39,
+                "type": "multiple_choice",
+                "topic": "Задание 15",
+                "difficulty": "hard",
+                "question": "Решите неравенство: log₃(x + 1) + log₃(x - 1) ≤ 1",
+                "answers": ["1 < x ≤ √10", "2 ≤ x < 3", "x > 1", "x ≤ 2"],
+                "correct_index": 0,
+                "explanation": "log₃((x + 1)(x - 1)) ≤ 1. (x + 1)(x - 1) ≤ 3. x² - 1 ≤ 3. x² ≤ 4. -2 ≤ x ≤ 2. Учитывая ОДЗ: x > 1. Итого: 1 < x ≤ √10"
+            },
+            {
+                "id": 40,
+                "type": "multiple_choice",
+                "topic": "Задание 17",
+                "difficulty": "hard",
+                "question": "Найдите все значения a, при которых уравнение x² - 4x + a = 0 имеет два различных корня.",
+                "answers": ["a < 4", "a > 4", "a = 4", "a ≥ 4"],
+                "correct_index": 0,
+                "explanation": "Дискриминант D = 16 - 4a > 0. 16 > 4a. a < 4"
+            },
+            {
+                "id": 41,
+                "type": "multiple_choice",
+                "topic": "Задание 11",
+                "difficulty": "hard",
+                "question": "Найдите точку минимума функции f(x) = x³ - 6x² + 9x + 1",
+                "answers": ["x = 1", "x = 3", "x = 2", "x = 0"],
+                "correct_index": 0,
+                "explanation": "f'(x) = 3x² - 12x + 9 = 3(x² - 4x + 3) = 3(x - 1)(x - 3). Критические точки: x = 1, x = 3. f''(x) = 6x - 12. f''(1) = -6 < 0 - максимум. f''(3) = 6 > 0 - минимум. В точке x = 1 - локальный минимум? Нет, это максимум! Ответ: x = 3"
+            },
+            {
+                "id": 42,
+                "type": "multiple_choice",
+                "topic": "Задание 15",
+                "difficulty": "hard",
+                "question": "Решите неравенство: (x² - 4)/(x - 1) ≥ 0",
+                "answers": ["(-2; 1) ∪ [2; +∞)", "(-∞; -2] ∪ (1; 2]", "[-2; 1) ∪ [2; +∞)", "(-∞; -2] ∪ (1; 2)"],
+                "correct_index": 2,
+                "explanation": "Критические точки: x = -2, x = 1, x = 2. ОДЗ: x ≠ 1. Метод интервалов даёт: [-2; 1) ∪ [2; +∞)"
+            },
+            {
+                "id": 43,
+                "type": "multiple_choice",
+                "topic": "Задание 17",
+                "difficulty": "hard",
+                "question": "При каких a уравнение a·4ˣ + 2·a·2ˣ + a - 1 = 0 имеет решение?",
+                "answers": ["a > 0", "a < 1", "0 < a ≤ 1", "a ≠ 0"],
+                "correct_index": 2,
+                "explanation": "Пусть t = 2ˣ > 0. a(t² + 2t + 1) = 1. a(t + 1)² = 1. a = 1/(t + 1)² > 0. Максимум a = 1 при t = 0. Итого: 0 < a ≤ 1"
+            },
+            {
+                "id": 44,
+                "type": "multiple_choice",
+                "topic": "Задание 18",
+                "difficulty": "hard",
+                "question": "Найдите все значения параметра m, при которых система имеет ровно 2 решения:\n\n{y = x² + 4x + 3\ny = mx + 3}",
+                "answers": ["m = -2", "m = 4", "m = 0 или m = 4", "любое m"],
+                "correct_index": 2,
+                "explanation": "x² + 4x + 3 = mx + 3 → x² + (4 - m)x = 0 → x(x + 4 - m) = 0. Корни: x = 0, x = m - 4. Различные решения при x = 0 и x = m - 4, если m ≠ 4. Итого 2 решения при m = 0 или m = 4"
+            },
+            
+            # ==================== ЗАДАНИЯ С КАРТИНКАМИ ====================
+            {
+                "id": 45,
+                "type": "image",
+                "topic": "Задание 6",
+                "difficulty": "easy",
+                "question": "На рисунке изображен график производной функции f(x). В каких точках функция f(x) имеет локальный максимум?",
+                "image_path": "tasks/images/task45.png",
+                "answers": ["В точках A и C", "В точках B и D", "В точке A", "В точке D"],
+                "correct_index": 0,
+                "explanation": "Локальный максимум там, где производная меняется с + на -. По графику это точки A и C"
+            },
+            {
+                "id": 46,
+                "type": "image",
+                "topic": "Задание 3",
+                "difficulty": "easy",
+                "question": "На клетчатой бумаге изображена фигура. Найдите её площадь, если сторона клетки равна 1 см.",
+                "image_path": "tasks/images/task46.png",
+                "answers": ["6 см²", "8 см²", "10 см²", "12 см²"],
+                "correct_index": 2,
+                "explanation": "Фигура состоит из 6 полных клеток и 8 половинок = 4 клетки. Итого 10 клеток = 10 см²"
+            },
+            {
+                "id": 47,
+                "type": "image",
+                "topic": "Задание 9",
+                "difficulty": "easy",
+                "question": "На графике показана температура воздуха в течение суток. В какое время суток температура была максимальной?",
+                "image_path": "tasks/images/task47.png",
+                "answers": ["6:00", "12:00", "15:00", "18:00"],
+                "correct_index": 2,
+                "explanation": "По графику максимальная температура достигается в 15:00"
+            },
+            {
+                "id": 48,
+                "type": "image",
+                "topic": "Задание 3",
+                "difficulty": "medium",
+                "question": "На рисунке изображены два треугольника. Чему равен угол ABC?",
+                "image_path": "tasks/images/task48.png",
+                "answers": ["30°", "45°", "60°", "75°"],
+                "correct_index": 2,
+                "explanation": "По свойству вертикальных углов и сумме углов треугольника: угол ABC = 60°"
+            },
+            {
+                "id": 49,
+                "type": "image",
+                "topic": "Задание 6",
+                "difficulty": "medium",
+                "question": "На рисунке изображен график функции f(x) = x³ - 3x². Найдите точки экстремума функции.",
+                "image_path": "tasks/images/task49.png",
+                "answers": ["x = 0 (max), x = 2 (min)", "x = 0 (min), x = 2 (max)", "x = 1 (max), x = 3 (min)", "x = 1 (min), x = 3 (max)"],
+                "correct_index": 1,
+                "explanation": "f'(x) = 3x² - 6x = 3x(x - 2). Критические точки: x = 0, x = 2. f''(x) = 6x - 6. f''(0) = -6 < 0 - максимум. f''(2) = 6 > 0 - минимум."
+            },
+            {
+                "id": 50,
+                "type": "image",
+                "topic": "Задание 4",
+                "difficulty": "medium",
+                "question": "На столе лежат карточки с числами от 1 до 10. Наугад выбирают одну карточку. Какова вероятность, что выбранное число чётное?",
+                "image_path": "tasks/images/task50.png",
+                "answers": ["0.3", "0.4", "0.5", "0.6"],
+                "correct_index": 2,
+                "explanation": "Чётных чисел от 1 до 10: 5 (2, 4, 6, 8, 10). Всего чисел: 10. P = 5/10 = 0.5"
+            },
         ]
     
     def get_all_tasks(self) -> List[Dict[str, Any]]:
